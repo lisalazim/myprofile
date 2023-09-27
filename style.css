@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+    background: url(https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2047&q=80);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+.heading h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.heading h1{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 70px;
+}
+
+
+.btn-wrapper{
+    width: 400px;
+}
+
+.btn:hover {
+    background-color: white !important;
+    color: black !important;
+}
