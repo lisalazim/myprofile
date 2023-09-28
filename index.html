@@ -22,7 +22,7 @@
                 <h4>Web Developer and Cyber Security</h4>
             </div>
             <div class="btn-wrapper d-flex justify-content-between ps-5">
-                <button class="btn bg-transparent text-light border border-light rounded-pill p-3 px-5 " id="btnPorto">About Me</button>
+                <a class="text-decoration-none" href="#aboutMe"><button class="btn bg-transparent text-light border border-light rounded-pill p-3 px-5 " id="btnPorto">About Me</button></a>
                 <button class="btn bg-transparent text-light border border-light rounded-pill p-3 px-5 " id="btnResume">Resume</button>
                 <button class="btn bg-transparent text-light border border-light rounded-pill p-3 px-5 " id="btnPorto">Portofolio</button>
             </div>
@@ -38,7 +38,7 @@
     </section>
 
     <section id="aboutMe">
-        <div class="container-fluid bg-black">
+        <div class="container-fluid bg-black d-flex flex-column">
             <nav class="navbar navbar-expand-lg p-3">
                 <a href="" class="navbar-brand text-light p-4">Home</a>
                 <a href="" class="navbar-brand text-light p-4">About me</a>
@@ -46,17 +46,15 @@
                 <a href="" class="navbar-brand text-light p-4">Portfolio</a>
             </nav>
             <div class="wrapper d-flex">
-                <div class="text text-light">
-                    <h3>About Me</h3>
-                    <p class="">lisalazi21@gmail.com</p>
-                    <p>I am a self-taught web developer with a basic understanding of cybersecurity. I have skills in mastering web technologies such as HTML, CSS, Bootstrap, JavaScript, jQuery, and frameworks like Laravel and Django. Additionally, I possess knowledge in database development using MySQL and have proficiency in Python programming.</p>
-                </div>
-                <div>
-                    <!-- <img class="img-fluid" src="img/lisa.jpg" alt=""> -->
+                <div class="row ">
+                    <div class="text text-light col d-flex flex-column align-items-start justify-content-center p-5">
+                        <h3 class="px-5">About Me</h3>
+                        <p class="px-5 pb-5 fs-5">lisalazi21@gmail.com</p>
+                        <p class="p-5 fs-3">I am a self-taught web developer with a basic understanding of cybersecurity. I have skills in mastering web technologies such as HTML, CSS, Bootstrap, JavaScript, jQuery, and frameworks like Laravel and Django. Additionally, I possess knowledge in database development using MySQL and have proficiency in Python programming.</p>
+                    </div>
+                    <div class="photo col"></div>
                 </div>
             </div>
-            
-
         </div>
     </section>
 

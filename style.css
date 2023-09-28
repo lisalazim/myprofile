@@ -43,3 +43,18 @@
     background-size: cover;
     height: 100vh;
 }
+
+.wrapper{
+    flex: 1;
+}
+
+.text h3 {
+    font-size: 50px;
+}
+
+.photo{
+    background: url(img/lisa.jpg);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center 80%;
+}
