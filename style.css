@@ -39,9 +39,12 @@
     font-size: 30px;
 }
 
+
 #aboutMe .container-fluid{
+    background: url(img/landscape.png);
     background-size: cover;
     height: 100vh;
+    background-position: center;
 }
 
 .wrapper{
@@ -52,9 +55,7 @@
     font-size: 50px;
 }
 
-.photo{
-    background: url(img/lisa.jpg);
-    background-size: 90%;
-    background-repeat: no-repeat;
-    background-position: center 80%;
+#resume .container-fluid{
+    background-size: cover;
+    height: 100vh;
 }
