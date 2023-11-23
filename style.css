@@ -56,10 +56,56 @@
 }
 
 #resume .container-fluid{
-    background-size: cover;
+    position: relative;
     height: 100vh;
 }
 
-#resume .container .row .col{
-    
+.background-bubbles{
+    position: relative;
+    display: flex;
 }
+
+.background-bubbles span{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: #4fc3dc;
+    margin: 0 5px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #4fc3dc44, 0 0 50px #4fc3dc, 0 0 100px #4fc3dc;
+    animation: animate 12s linear infinite;
+    animation-duration: calc(160s / var(--i));
+}
+
+.background-bubbles span:nth-child(even){
+    background: #6946d1;
+    box-shadow: 0 0 0 10px #4f54dc44, 0 0 50px #46aed1, 0 0 100px #46aed1;
+}
+
+@keyframes animate {
+    0%{
+        transform: translateY(100vh) scale(0);
+    }
+    100%{
+        transform: translateY(-10vh) scale(1);
+    }
+}
+
+#resume .container .row .col{
+    border: 2px solid ;
+    border-radius: 30px;
+    margin: 30px;
+}
+
+#resume h3{
+    font-size: 25px;
+    color: rgb(133, 133, 240);
+}
+
+#resume ul li{
+    font-size: 20px;
+}
+
+
+
+
